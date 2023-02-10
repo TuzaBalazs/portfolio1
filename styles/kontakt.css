@@ -1,0 +1,115 @@
+
+
+.hero{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    }
+.hero-container{
+        text-align: center;
+        z-index: 2;
+        background-size: contain;
+    }
+.hero h1{
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    }
+.inner{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem; 
+    }
+.kontakt{
+    padding: 3vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 2px var(--orange);
+    padding-bottom: 3rem;
+    height: 100vh;
+}
+.kontakt h2{
+    color: var(--orange);
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+   
+}
+form{
+    border: solid 2px var(--orange);
+    display: flex;
+    color: var(--orange);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 700px;
+}
+form [type="text"],
+form [type="email"],
+form textarea{
+    background: var(--gray);
+    width: 75%;
+    margin: 1.5vh auto;
+    border: solid 1px var(--orange);
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: .6rem;
+    color: var(--white);
+}
+.kontakt [type="submit"]{
+    border: 2px solid var(--orange);
+    border-radius: 2rem ;
+    background: var(--orange);
+    padding: .5rem 3rem;
+    width: 75%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+.kontakt ul{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    max-width: 700px;
+    margin: 50px;
+}
+.kontakt ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.kontakt ul li:hover{
+    box-shadow: 0 0 15px 5px var(--orange);
+}
+
+@media screen and (min-width:768px) {
+    
+    .hero{
+        background-image: url("/pics/kontakt.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .inner{
+        flex-direction: row;
+            max-width: 80rem;
+            margin: 0 auto;
+            flex-wrap: wrap;
+    }
+}

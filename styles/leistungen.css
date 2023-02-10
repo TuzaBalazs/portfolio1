@@ -1,0 +1,72 @@
+.hero{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    }
+.hero-container{
+        text-align: center;
+        z-index: 2;
+    }
+.hero h1{
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    }
+.inner{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    
+    align-items: center;
+}
+
+
+.design{
+    background: var(--white);
+}
+.responsive-design{
+    background: var(--lightgray);
+}
+.cms{
+    background: var(--white);
+    border-bottom: solid 2px var(--orange);
+}
+h2{
+    padding: 2rem;
+    font-size: 2.5rem;
+    text-decoration: underline 2px var(--orange);
+}
+p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: .1rem;
+    margin-right: 3rem;
+}
+
+
+@media screen and (min-width:768px) {
+    
+    .hero{
+        background-image: url("/pics/csm_csm_Header-Webdesign-Leistungen-01_f328219228_b5c977c601.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .inner{
+        flex-direction: row;
+            max-width: 80rem;
+            margin: 0 auto;
+            flex-wrap: wrap;
+    }
+    .text-container{
+        flex: 1;
+    }
+    .img-container{
+        flex: 1;
+    }
+}

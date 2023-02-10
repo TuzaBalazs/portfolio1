@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/fc211a1e94.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <title>Home</title>
+</head>
+<body>
+
+
+    <header>
+        <!--nav-bar-->
+        <a class="header-logo" href="/index.html">Balázs Tuza</a>
+        <nav>
+            <input type="checkbox" id="nav-checkbox" class="nav-checkbox">
+            <label for="nav-checkbox">
+                <div class="nav-checkbox-button">
+                    <span class="hamburger-menu"></span>
+                    <span class="hamburger-menu"></span>
+                    <span class="hamburger-menu"></span>
+                </div>
+            </label>
+            <ul class="nav-list">
+                <li><a class="active" href="/index.html">Home</a></li>
+                <li><a href="/ueber-mich.html">Über mich</a></li>
+                <li><a href="/leiszungen.html">Leistungen</a></li>
+                <li><a href="/kontakt.html">Kontakt</a></li>
+                <li><a href="/impressum.html">Impressum</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--hero-heading-->
+        <section id="hero" class="hero">
+            <div class="hero-container">
+                <h1 class="hero-container-name">Balázs Tuza</h1>
+                <h2 class="hero-container-beruf"><span>Frontend</span> Webentwicklung</h2>
+                <button class="hero-kontakt-button">Kontakt<i class="fa-solid fa-arrow-right"></i></button>
+
+            </div>
+            <div class="runde-1"></div>
+            <div class="runde-2"></div>
+            <div class="runde-3"></div>
+            <div onclick="scrollDown()" class="arrow-down">
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+        </section>
+        <section id="intro" class="intro">
+            <div>
+                <h2>Webdesign aus Waldkraiburg</h2>
+                <p>Atemberaubend schnell, glasklar und einfach.
+                    <br>
+                    In der schönsten Stadt Deutschlands erschaffen wir
+                    <br>
+                    Websites die dein Unternehmen weiterbringen!
+                </p>
+                <button class="hero-kontakt-button">Webdesign anfragen</button>
+            </div>
+        </section>
+
+        <section class="einleitung">
+            <div class="inner">
+                <div class="img-container-1">
+                            <img class="intro-img-1" src="/pics/taras-shypka-iFSvn82XfGo-unsplash.jpg" alt="">
+                        </div>
+                        <div class="text-container-1">
+                            <h2>Webdesign: Der erste Eindruck zählt</h2>
+                            <p>Menschen überschätzen gerne den Wert einer einzelnen Maßnahmen, aber unterschätzen den langfristigen Effekt einer orchestrierten Gesamtkomposition.
+                                <br>
+                                Bei einer wirklich guten Websites kommt einiges zusammen: Sicherheit und Datenschutz, brillantes Design und echte Kommunikation, gezielte Kundenansprache, Übersichtlichkeit und exzellente Funktion. Schnell und immer aktuell.
+                                <br>
+                                Mit den von uns erprobten Lösungen, erreichst und überzeugst du potenzielle Kunden und Mitarbeiter. Das zentrale Element unseres Masterplans bildet – als digitales Leuchtfeuer – deine neue brillante Website. </p>
+                            </div>
+                            </div>
+            </section>
+                <section class="technologie">
+                    <div class="inner">
+                        <div class="technologie-h2">
+                        <h2>Technologie</h2>
+                        </div>
+                        <div class="content">
+                        <h3>Einfach</h3>
+                        <h4>Responsive Webdesign</h4>
+                        <p>Als Waldkraiburger Webdesigner und Entwickler erstellen wir mit Herz und Hand schöne und effektive Websites. Internetseiten, die beeindrucken, Spaß machen und einfach zu bedienen sind. </p>
+                            <br>
+                        <p> Unsere Stärke ist das Responsive Webdesign: Konzeption, Gestaltung und Umsetzung eines Web-Auftritts für alle Geräte und Browser. Ansprechendes Design, perfekte Funktion, optimale Darstellung.</p>
+                    </div>
+                    <div class="content">
+                        <h3>Schneller</h3>
+                        <h4>CMS, Template + Theme</h4>
+                        <p>State-of-the-Art: Immer am Puls der Zeit. Bei der Entwicklung von Websites setzen wir auf aktuelle Technologien, Best-Practices und verlässliche Software. TYPO3 CMS und WordPress haben sich über die Jahre in vielen Web-Projekten bewährt.</p>
+                            <br>
+                        <p>"Pixel-perfect" Designs werden mit HTML5, CSS3 und JavaScript so umgesetzt, dass unsere Homepages einfach funktionieren, blitzschnell erscheinen und nachhaltig überzeugen.</p>
+                    </div>
+                    <div class="content">
+                        <h3>Optimiert</h3>
+                        <h4>SEO + Sichtbarkeit</h4>
+                        <p>SEO ist Teil der DNA unserer Websites. Darum sind wir (wie Google) besessen von Page-Speed, durchforsten Nacht für Nacht das Netz auf der Suche nach dem geheimen Code, analysieren Statistiken und Trends, optimieren immer wieder OnPage, setzen Backlinks und erhöhen so langfristig die Sichtbarkeit.</p>
+                    </div>
+                    <div class="button">
+                    <button class="hero-kontakt-button">Kontakt<i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    </div>
+                </section>
+           <section class="portfolio">
+            <div class="inner">
+                <div class="portfolio-h2">
+                    <h2>Portfolio Projects</h2>
+                </div>
+                <div class="portfolio-container">
+                    <div class="portfolio-project">
+                        <img src="/pics/portfolio-projects.png" alt="">
+                    </div>
+                    <h3>Project #1</h3>
+                </div>
+                <div class="portfolio-container">
+                    <div class="portfolio-project">
+                        <img src="/pics/portfolio-projects.png" alt="">
+                    </div>
+                    <h3>Project #2</h3>
+                </div>
+                <div class="portfolio-container">
+                    <div class="portfolio-project">
+                        <img src="/pics/portfolio-projects.png" alt="">
+                    </div>
+                    <h3>Project #3</h3>
+                </div>
+                <div class="portfolio-container">
+                    <div class="portfolio-project">
+                        <img src="/pics/portfolio-projects.png" alt="">
+                    </div>
+                    <h3>Project #4</h3>
+                </div>
+                <div class="portfolio-container">
+                    <div class="portfolio-project">
+                        <img src="/pics/portfolio-projects.png" alt="">
+                    </div>
+                    <h3>Project #5</h3>
+                </div>
+                <div class="portfolio-container">
+                    <div class="portfolio-project">
+                        <img src="/pics/portfolio-projects.png" alt="">
+                    </div>
+                    <h3>Project #6</h3>
+                </div>
+
+            </div>
+        </section>
+        <aside>
+            <div class="inner">
+            <blockquote>
+                "Als Web Design Spezialist unterstützen wir unsere Kunden auf dem Weg zum Erfolg im Netz. Mit einem breiten Leistungsspektrum sowie einer großen Portion Kreativität, Know-how und Motivation finden wir neue Wege und einzigartige Lösungen."
+            </blockquote>
+        </div>
+        </aside>
+    </main>
+        <footer>
+            <div class="inner">
+                <div class="footer-container">
+                    <div class="kontact">
+                        <div class="h3">
+                            <h3>Kontact</h3>
+                        </div>
+                        <div class="kontakt-daten">
+                            <p>Balazs Tuza</p>
+                            <p>Tel.: 049-1234566</p>
+                            <p>Mobil: 0174 12345657</p>
+                            <p>E-Mail: tuza[.]balazs[@]gmail[.]com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-container">
+
+                    <div class="menu">
+                        <div class="h3">
+                            <h3>Menü</h3>
+                        </div>
+                        <ul class="footer-nav-list">
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="/ueber-mich.html">Über mich</a></li>
+                            <li><a href="/leiszungen.html">Leistungen</a></li>
+                            <li><a href="/kontakt.html">Kontakt</a></li>
+                            <li><a href="/impressum.html">Impressum</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-container">
+                    <div class="social-media">
+                        <div class="h3">
+                            <h3>Social Media</h3>
+                        </div>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="/js/main.js"></script>
+    <script defer src="/js/active-page.js"></script>
+</body>
+</html>

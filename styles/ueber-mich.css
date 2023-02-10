@@ -1,0 +1,191 @@
+.hero{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    }
+.hero-container{
+        text-align: center;
+        z-index: 2;
+        background-size: contain;
+    }
+.hero h1{
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    }
+.inner{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem; 
+    }
+.ueber-mich img{
+        max-width: 525px;
+        margin: 0 auto;
+    }
+
+.ueber-mich-container{
+        background: var(--lightgray);
+        display: flex;
+        flex-direction: column-reverse;
+    }        
+.ueber-mich-fahigkeiten-container{
+        background-color: var(--orange);
+        padding: 1rem;
+    }
+.ueber-mich-fahigkeiten{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+.ueber-mich-technologie{
+    font-size: 1.5rem;
+    font-weight: 700;
+    }
+.ueber-mich-list{
+    font-size: 1.2rem;
+    margin: .5rem 0;
+}
+.ueber-mich-punkte{
+    margin: 1rem 0;
+}
+
+    .ueber-mich-text{
+        padding: 30px;
+    }
+    .gruss{
+        color: var(--gray);
+        font-size: 1.4rem;
+        font-weight: 600;
+        letter-spacing: .1rem;
+    }
+    .name{
+        font-size: 2rem;
+        padding-top:10px;
+        padding-bottom: 10px;
+        letter-spacing: .2rem;
+    }
+    .text{
+        font-size: 1.2rem;
+        margin-top: 5vh;
+        line-height: 2rem;
+        font-weight: 500;
+    }
+    
+    .erfahrungen{
+        background: var(--white);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+   
+    .erfahrungen .h2{
+        width: 100%;
+        text-align: center;
+        text-decoration: underline 2px var(--orange);
+    }
+    .icons-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icons-container i{
+       font-size: 6rem;
+       padding: 1.5rem;
+    }
+    .fa-html5{
+        color: #f4470b;
+    }
+    .fa-css3-alt{
+        color: #0277bd;
+    }
+    .fa-js{
+        color: #ffd600;
+    }
+    .fa-bootstrap{
+        color: #673ab7;
+    }
+    .fa-wordpress{
+        color: #01579B;
+    }
+    .tools{
+        border-bottom: solid 2px var(--orange);
+    }
+    .tools .h2{
+        color: var(--white);
+        width: 100%;
+        text-align: center;
+        text-decoration: underline 2px var(--orange);
+    }
+    .icon-container{
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem;
+    }
+    .tools img{
+        width: 50%;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    
+@media screen and (min-width:576px) {
+    .ueber-mich{
+        padding: 0 50px;
+    }
+
+}
+@media screen and (min-width:768px) {
+    
+    .hero{
+        background-image: url("/pics/ueber-mich.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .inner{
+        flex-direction: row;
+            max-width: 80rem;
+            margin: 0 auto;
+            flex-wrap: wrap;
+    }
+    
+    .ueber-mich-technologie{
+        font-size: 1.8rem;
+    }
+    .ueber-mich-list{
+        font-size: 1.4rem;
+    }
+    .ueber-mich-text{
+        padding: 4rem;
+    }
+    .icons-container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .icon-container{
+        width: 16.65%;
+    }
+}
+@media screen and (min-width:992px) {
+    .ueber-mich{
+        padding: 100px 50px;
+        height: 100vh;
+    }
+    .ueber-mich-container{
+        flex-direction: row;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .ueber-mich-fahigkeiten img{
+        width: 100%;
+    }
+    .ueber-mich-fahigkeiten-container{
+        height: 100%;
+    }
+}

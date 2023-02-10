@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/fc211a1e94.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/kontakt.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <title>Kontakt</title>
+</head>
+<body>
+    <header>
+        <!--nav-bar-->
+        <a class="header-logo" href="/index.html">Balázs Tuza</a>
+        <nav>
+            <input type="checkbox" id="nav-checkbox" class="nav-checkbox">
+            <label for="nav-checkbox">
+                <div class="nav-checkbox-button">
+                    <span class="hamburger-menu"></span>
+                    <span class="hamburger-menu"></span>
+                    <span class="hamburger-menu"></span>
+                </div>
+            </label>
+            <ul class="nav-list">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/ueber-mich.html">Über mich</a></li>
+                <li><a href="/leiszungen.html">Leistungen</a></li>
+                <li><a href="/kontakt.html">Kontakt</a></li>
+                <li><a href="/impressum.html">Impressum</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--hero-section-->
+        <section class="hero">
+            <div class="hero-container">
+                <h1>Kontakt</h1>
+            </div>
+        </section>
+        <section class="kontakt">
+            
+            <h2>Kontakt</h2>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="neame">
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email">
+                <label for="massege">Ihre Nachrict:</label>
+                <textarea name="" id="messege" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send">
+                <ul>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-brands fa-github"></i></li>
+                </ul>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="inner">
+            <div class="footer-container">
+                <div class="kontact">
+                    <div class="h3">
+                        <h3>Kontact</h3>
+                    </div>
+                    <div class="kontakt-daten">
+                        <p>Balazs Tuza</p>
+                        <p>Tel.: 049-1234566</p>
+                        <p>Mobil: 0174 12345657</p>
+                        <p>E-Mail: tuza[.]balazs[@]gmail[.]com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-container">
+
+                <div class="menu">
+                    <div class="h3">
+                        <h3>Menü</h3>
+                    </div>
+                    <ul class="footer-nav-list">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/ueber-mich.html">Über mich</a></li>
+                        <li><a href="/leiszungen.html">Leistungen</a></li>
+                        <li><a href="/kontakt.html">Kontakt</a></li>
+                        <li><a href="/impressum.html">Impressum</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-container">
+                <div class="social-media">
+                    <div class="h3">
+                        <h3>Social Media</h3>
+                    </div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/main.js"></script>
+    <script defer src="/js/active-page.js"></script>
+</body>
+</html>

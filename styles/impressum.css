@@ -1,0 +1,62 @@
+.hero{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    }
+.hero-container{
+        text-align: center;
+        z-index: 2;
+        background-size: contain;
+    }
+.hero h1{
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    }
+    .inner{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem; 
+    }
+    .texte{
+        background: var(--white);
+        color: var(--gray);
+    }
+    h2{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-weight: 500;
+    }
+
+    @media screen and (min-width:768px) {
+    
+        .hero{
+            background-image: url("/pics/kontakt.jpg") ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            
+        }
+        .inner{
+            flex-direction: row;
+                max-width: 80rem;
+                margin: 0 auto;
+                flex-wrap: wrap;
+        }
+        .inner{
+            flex-direction: column;
+                max-width: 70rem;
+                margin: 0 auto;
+                flex-wrap: wrap;
+        }
+    }
