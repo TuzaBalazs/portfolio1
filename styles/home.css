@@ -295,7 +295,7 @@ aside{
 @media screen and (min-width:768px) {
 
     .hero{
-        background-image: url("/pics/luca-bravo-XJXWbfSo2f0-unsplash.jpg") ;
+        background-image: url(../pics/luca-bravo-XJXWbfSo2f0-unsplash.jpg) ;
         background-repeat: no-repeat;
         background-size: cover;
 
